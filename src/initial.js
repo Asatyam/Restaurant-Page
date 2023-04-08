@@ -12,7 +12,7 @@ const createHeading = () => {
 
 const createBtn = (tabsDiv, btnName) => {
   const btn = document.createElement('button');
-  btn.setAttribute('class', btnName);
+  btn.setAttribute('class', `${btnName}-btn`);
   btn.textContent = btnName.toUpperCase();
   tabsDiv.appendChild(btn);
 };

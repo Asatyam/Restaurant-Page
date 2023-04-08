@@ -15,4 +15,5 @@ function home() {
   content.classList.add('home');
 }
 
+// eslint-disable-next-line import/prefer-default-export
 export { home };
