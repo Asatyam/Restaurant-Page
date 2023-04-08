@@ -9,16 +9,37 @@
 }
 .main {
     height: 100svh;
-    background-color: aqua;
+    background: url('./images/restaurant.jpeg') no-repeat;
+    background-size: 100% 100%;
 }
 .heading {
-    background-color: #312e81;
+    background-color: rgba(30,30,30,.9);
+    /* background-color: #111827; */
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    padding:20px;
 }
 
 .heading>p {
-    font-size: 3rem;
+    font-size: 4rem;
+}
+.tabs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgba(50, 50, 50, .8);
+    gap:20px;
+}
+.tabs>button{
+    padding:10px 20px;
+    border:none;
+    font-size: 2rem;
+    transition: 0.1s;
+    background-color: rgba(50,50,50,.8);
+    color: white;
+}
+.tabs>button:hover{
+    cursor: pointer;
+    color: #06b6d4;
 }
