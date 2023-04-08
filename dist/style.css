@@ -20,11 +20,9 @@ html,body{
         background-size: cover;
     display: grid;
     grid-template-rows:150px 80px 1fr;
-    background-color: green;
 }
 .heading {
     background-color: rgba(30,30,30,.9);
-    /* background-color: #111827; */
     display: flex;
     justify-content: center;
     align-items: center;
