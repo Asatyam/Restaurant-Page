@@ -7,12 +7,16 @@
     font-family: 'Stick No Bills', sans-serif;
 
 }
+html,body{
+    height: 100%;
+}
 .main {
-    height: 100svh;
+    min-height: 100%;
     background: url('./images/restaurant.jpeg') no-repeat;
     background-size: 100% 100%;
     display: grid;
     grid-template-rows:150px 80px 1fr;
+    background-color: green;
 }
 .heading {
     background-color: rgba(30,30,30,.9);
@@ -75,4 +79,49 @@
     text-align: center;
     color:white;
     font-size:1.4rem;
+}
+
+.content.menuList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.menu{
+    margin: 100px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+    gap:30px;
+}
+.item {
+    display: grid;
+    grid-template-rows: 1fr 60px;
+    height: 300px;
+    width: 300px;
+    align-self: center;
+    background-color: rgba(10, 10, 10, 0.9);
+    border:2px solid #eab308;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.item:hover{
+    background-color: #0c4a6e;
+}
+.item>img {
+    align-self: center;
+    justify-self: center;
+
+    height: 200px;
+    width: 200px;
+}
+
+.item>p {
+    font-family: Arial, Helvetica, sans-serif;
+   
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
 }
