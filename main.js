@@ -1,1 +1,1 @@
-console.log("hello");
+(()=>{"use strict";const e=document.querySelector(".main");(()=>{const t=document.createElement("div"),n=document.createElement("p");t.setAttribute("class","heading"),n.textContent="Eat Love Repeat",t.appendChild(n),e.appendChild(t)})(),console.log("working")})();
