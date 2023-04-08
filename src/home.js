@@ -1,6 +1,8 @@
 function home() {
   const content = document.querySelector('.content');
   content.innerHTML = '';
+  content.setAttribute('class', 'content');
+
   const aboutDiv = document.createElement('div');
   aboutDiv.setAttribute('class', 'about');
   const aboutImg = document.createElement('img');

@@ -1,6 +1,7 @@
 function contact() {
   const content = document.querySelector('.content');
   content.innerHTML = '';
+  content.setAttribute('class', 'content');
   const contactDiv = document.createElement('div');
   contactDiv.setAttribute('class', 'contact');
   const contactPara = document.createElement('p');

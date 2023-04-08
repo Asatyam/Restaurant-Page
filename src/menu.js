@@ -1,6 +1,8 @@
 function menu() {
   const content = document.querySelector('.content');
   content.innerHTML = '';
+  content.setAttribute('class', 'content');
+
   const menuDiv = document.createElement('div');
   menuDiv.setAttribute('class', 'menu');
   // eslint-disable-next-line no-plusplus
