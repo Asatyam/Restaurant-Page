@@ -1,2 +1,4 @@
 /* eslint-disable no-console */
-console.log('hello');
+import { createWebsite } from './initial';
+
+createWebsite();

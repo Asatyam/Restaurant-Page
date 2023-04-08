@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Stick+No+Bills:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Stick No Bills', sans-serif;
+
+}
+.main {
+    height: 100svh;
+    background-color: aqua;
+}
+.heading {
+    background-color: #312e81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.heading>p {
+    font-size: 3rem;
+}
