@@ -7,13 +7,17 @@
     font-family: 'Stick No Bills', sans-serif;
 
 }
+*::selection{
+    background-color: #581c87;
+}
 html,body{
     height: 100%;
 }
 .main {
     min-height: 100%;
     background: url('./images/restaurant.jpeg') no-repeat;
-    background-size: 100% 100%;
+    background-attachment: fixed;
+        background-size: cover;
     display: grid;
     grid-template-rows:150px 80px 1fr;
     background-color: green;
@@ -48,6 +52,7 @@ html,body{
 .tabs>button:hover{
     cursor: pointer;
     color: #06b6d4;
+    border-bottom:5px solid yellow;
 }
 .content{
     position: relative;
@@ -124,4 +129,30 @@ html,body{
     text-align: center;
     color: white;
     font-size: 1.3rem;
+}
+.content.contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+ 
+    height: 400px;
+    width: 400px;
+    align-self: center;
+    background-color: rgba(10, 10, 10, 0.9);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.contact>h1{
+    color: white;
+    text-align: center;
+}
+.contact>p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
 }
