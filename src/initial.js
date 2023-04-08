@@ -29,5 +29,8 @@ const createTabs = () => {
 function createWebsite() {
   createHeading();
   createTabs();
+  const contentDiv = document.createElement('div');
+  contentDiv.setAttribute('class', 'content');
+  main.append(contentDiv);
 }
 export { createWebsite };
